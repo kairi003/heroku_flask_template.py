@@ -1,4 +1,4 @@
-from main import app
+from . import app
 
 @app.route('/')
 def top_page():
